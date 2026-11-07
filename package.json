@@ -1,0 +1,12 @@
+{
+  "name": "mediquery-workspace",
+  "version": "1.0.0",
+  "description": "MediQuery - AI-Powered Medical Document Assistant (RAG)",
+  "scripts": {
+    "start": "python run.py",
+    "dev": "python run.py --dev",
+    "build": "cd frontend && npm run build",
+    "backend": "cd backend && python -m uvicorn main:app --host 127.0.0.1 --port 8000 --reload",
+    "frontend": "cd frontend && npm run dev"
+  }
+}
